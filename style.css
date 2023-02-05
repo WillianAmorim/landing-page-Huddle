@@ -12,7 +12,8 @@ body{
 main {
   width: 100vw;
   height: 100vh;
-  padding: 50px;
+  padding: 70px;
+  display: flex;
 }
 
 .section-one {
@@ -30,4 +31,32 @@ main {
 #img-tela {
   height: 70vh;
   width: 90%;
+}
+
+.section-two {
+  padding-top: 130px;
+  width: 45vw;
+  color: white;
+}
+
+.section-two > h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.section-two > p {
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  margin-bottom: 50px;
+}
+
+.section-two > button{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
 }
