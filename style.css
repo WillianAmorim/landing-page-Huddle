@@ -8,3 +8,26 @@ body{
   background-color: hsl(257, 40%, 49%);
   background-image: url('./images/bg-desktop.svg');
 }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+
+.section-one {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#img-logo{
+  height: 40px;
+  align-self: start;
+  margin-bottom: 50px;
+}
+
+#img-tela {
+  height: 70vh;
+  width: 90%;
+}
