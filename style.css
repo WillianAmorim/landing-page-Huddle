@@ -7,56 +7,103 @@
 body{
   background-color: hsl(257, 40%, 49%);
   background-image: url('./images/bg-desktop.svg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
-  width: 100vw;
-  height: 100vh;
-  padding: 70px;
+  width: 90vw;
+  height: 90vh;
   display: flex;
+  padding-top: 20px;
 }
 
 .section-one {
-  width: 55vw;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
 
 #img-logo{
   height: 40px;
+  width: 150px;
   align-self: start;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 #img-tela {
-  height: 70vh;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .section-two {
-  padding-top: 130px;
-  width: 45vw;
+  padding-top: 100px;
+  width: 40%;
+  height: 100%;
   color: white;
+  padding-left: 40px;
 }
 
 .section-two > h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .section-two > p {
-  padding-top: 15px;
+  padding-top: 0.9375rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 19px;
-  margin-bottom: 50px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 .section-two > button{
-  width: 200px;
-  height: 50px;
-  border-radius: 25px;
+  width: 12.5rem;
+  height: 3.125rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 1.5625rem;
   border: none;
   background-color: white;
+  margin-top: 40px;
+}
+
+footer {
+  width: 100vw;
+  height: 7vh;
+  padding-right: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 1.25rem;
+  border: 0.0625rem solid white;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.icons {
+  font-size: 30px;
+  color: white;
+} 
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.div-icons:hover {
+  border: 1px solid hsl(300, 69%, 71%) ;
+}
+
+.div-icons:hover i {
+  color:  hsl(300, 69%, 71%);
 }
