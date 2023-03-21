@@ -188,4 +188,12 @@ button:hover {
     background-color: white;
     color: hsl(257, 40%, 49%);
   }
+
+  .div-icons:hover {
+    border: 1px solid white ;
+  }
+  
+  .div-icons:hover i {
+    color: white;
+  }
 }
