@@ -196,8 +196,16 @@ button:hover {
   .div-icons:hover {
     border: 1px solid white ;
   }
+
+  .div-icons:active {
+    opacity: 0.5;
+  }
   
   .div-icons:hover i {
     color: white;
+  }
+
+  .div-icons:active i {
+    opacity: 0.5;
   }
 }
