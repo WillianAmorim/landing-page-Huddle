@@ -1,5 +1,4 @@
-# Título do Projeto
-Lnading Page Huddle
+# Lnading Page Huddle
 
 Uma simples landing page bem intuitiva e com alguns efeitos.
 
